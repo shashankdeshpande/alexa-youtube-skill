@@ -1,0 +1,58 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "PlayAudioIntent",
+          "samples": [
+            "play videos by {query}",
+            "play music by {query}",
+            "play songs by {query}",
+            "search for {query}",
+            "Play {query}"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "music store"
+    }
+  }
+}
